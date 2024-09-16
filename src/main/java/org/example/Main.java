@@ -18,6 +18,8 @@ public class Main {
         System.out.println("Area of circle: " + area(radius));
     }
 
+
+
     public static boolean shouldWakeUp(boolean isBarking, int clock) {
         if (clock <0 || clock > 23 || !isBarking) {
             return false;
